@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		2234B2CCE0DDBE8AFB141E04 /* Pods-RWDirectZoom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWDirectZoom_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWDirectZoom_Tests/Pods-RWDirectZoom_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3BBF395E006FB8E784F18F6F /* RWDirectZoom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RWDirectZoom.podspec; path = ../RWDirectZoom.podspec; sourceTree = "<group>"; };
+		3BBF395E006FB8E784F18F6F /* RWDirectZoom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RWDirectZoom.podspec; path = ../RWDirectZoom.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		482F487FF3E75D9987F3084C /* Pods-RWDirectZoom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWDirectZoom_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWDirectZoom_Example/Pods-RWDirectZoom_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4F343371544EA0A26E50724E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F343371544EA0A26E50724E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51BC69EA0166B0061BFF9DBC /* Pods_RWDirectZoom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWDirectZoom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RWDirectZoom_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWDirectZoom_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		939662B8E137A78AFEAB54A3 /* Pods-RWDirectZoom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWDirectZoom_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWDirectZoom_Example/Pods-RWDirectZoom_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0723A11EE69B563CD03B779 /* Pods_RWDirectZoom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWDirectZoom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF37AE1BBE74CA1B53702803 /* Pods-RWDirectZoom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWDirectZoom_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWDirectZoom_Tests/Pods-RWDirectZoom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5D19CAC4EBE5BF2FB96FBB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D5D19CAC4EBE5BF2FB96FBB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

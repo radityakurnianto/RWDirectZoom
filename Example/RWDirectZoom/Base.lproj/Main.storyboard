@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +20,32 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample" translatesAutoresizingMaskIntoConstraints="NO" id="307-ZL-bdq">
+                                <rect key="frame" x="0.0" y="228" width="375" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="307-ZL-bdq" secondAttribute="height" multiplier="16:9" id="QdH-WI-0Im"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="307-ZL-bdq" secondAttribute="trailing" id="iEm-RG-XnC"/>
+                            <constraint firstItem="307-ZL-bdq" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="krR-sB-Eqc"/>
+                            <constraint firstItem="307-ZL-bdq" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="rXS-LI-08P"/>
+                            <constraint firstItem="307-ZL-bdq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="zEI-99-r9z"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="307-ZL-bdq" id="yKi-yI-a81"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sample" width="5184" height="3456"/>
+    </resources>
 </document>

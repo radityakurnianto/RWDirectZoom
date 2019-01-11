@@ -1,0 +1,16 @@
+PODS:
+  - RWDirectZoom (0.1.0)
+
+DEPENDENCIES:
+  - RWDirectZoom (from `../`)
+
+EXTERNAL SOURCES:
+  RWDirectZoom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RWDirectZoom: 34084f79e3f103154ce6d5393455c3fa5918db2d
+
+PODFILE CHECKSUM: 909daf640667ab716f944277a675e01803cfb36b
+
+COCOAPODS: 1.5.3
