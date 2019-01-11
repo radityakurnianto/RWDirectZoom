@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RWDirectZoom_Example' do
+  pod 'RWDirectZoom', :path => '../'
+
+  target 'RWDirectZoom_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
